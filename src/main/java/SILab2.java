@@ -3,8 +3,8 @@ import java.util.List;
 public class SILab2 {
     public static boolean checkCart(List<Item> allItems, int payment) {
         if (allItems == null) {// 1
-            throw new RuntimeException("allItems list can't be null!");
-        } // 2
+            throw new RuntimeException("allItems list can't be null!"); // 2
+        } 
 
         float sum = 0;// 3
 
